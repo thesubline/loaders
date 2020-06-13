@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Subline Loader</title>
+        <style>
+            body,html {
+                padding: 50px 0 0 50px;
+            }
+
+            .spinner{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100px;
+                width: 100px;
+                border-radius: 10px;
+                z-index: -1;
+                background: rgba(255, 99, 107, 0.3);
+                border-radius: 50%;
+                box-shadow: 5px 5px 25px rgba(0, 27, 45);
+                animation: rotate 1s linear infinite;
+            }
+
+            img{
+                max-height: 100%;
+                max-width: 100%;
+                border-radius: 50%;
+            }
+
+            @keyframes rotate{
+                0% {}
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="spinner">
+            <img src="logo.png" alt="subline">
+        </div>
+    </body>
+</html>
